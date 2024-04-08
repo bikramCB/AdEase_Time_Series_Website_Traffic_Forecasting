@@ -30,11 +30,11 @@ ARIMA, SARIMAX, Prophet and Linear Regression
 Numpy, pandas, statsmodel,fbprophet
 
 ## Findings :
-1.there are some null values at the beginning probable reason website were not created at that time.
-2.remove columns whose have more than 300 days views are null because its nonsense to predict 550 days forecast with 330 days 0 values.
-3.every website name contains title, language,britanica.org,access type and access origin. split all title, language , access type and access origin.
-4. Then we took the mean views of every languages of 550 days(july 2015 to December 2016) each consider as views per page.
-5. English has the highest number of views per page.Did not remove spike outlier just becasue of there may be some significant incident happened thats why views were higher.
+1.  there are some null values at the beginning probable reason website were not created at that time.
+2. remove columns whose have more than 300 days views are null because its nonsense to predict 550 days forecast with 330 days 0 values.
+3. every website name contains title, language,britanica.org,access type and access origin. split all title, language , access type and access origin.
+4.  Then we took the mean views of every languages of 550 days(july 2015 to December 2016) each consider as views per page.
+5.  English has the highest number of views per page.Did not remove spike outlier just becasue of there may be some significant incident happened thats why views were higher.
 
 ## Challenges:
 Buring spliiting of title name, language from website we noticed some websites are unstructed way .Could not able to split title, language, access type. That why we consider them as no langugae or common language.
